@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import * as XLSX from "xlsx";
 import { saveAs } from "file-saver";
-import { MergeDailyKMData } from "../utils/MergeDailyKmData";
+import { MergeDailyKMData } from "../utils/MergeDailyKMData";
 import { calculateSummary } from "../utils/calculateSummary";
 import { calculateNDASummary } from "../utils/calculateNDASummary";
 import { removeZeroHoursEmployees } from "../utils/removeZeroHoursEmployees";
